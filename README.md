@@ -8,6 +8,14 @@
 字体识别使用HOG算法，Chars74K数据集训练。  
 该数据集可在[这里](http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/EnglishFnt.tgz)找到。  
 
+还有一点，这个系统虽然对手写体具有一定的区分能力，但大部分情况下还是差强人意。  
+可以试一下使用`torchvision `的 datasets 手写数据集来训练。
+
+```python
+from torchvision import datasets
+train = datasets.EMNIST(root='data', split='letters', train=True, download=True)
+```
+
 ## 使用方法
 本项目集成性很高，使用简单。
 1. 下载测试数据集和本仓库
