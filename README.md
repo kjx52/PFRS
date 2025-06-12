@@ -8,6 +8,8 @@
 字体识别使用HOG算法，Chars74K数据集训练。  
 该数据集可在[这里](http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/EnglishFnt.tgz)找到。  
 
+详细信息已发布于：[阿里云社区](https://developer.aliyun.com/article/1666792)
+
 还有一点，这个系统虽然对手写体具有一定的区分能力，但大部分情况下还是差强人意。  
 可以试一下使用`torchvision `的 datasets 手写数据集来训练。
 
