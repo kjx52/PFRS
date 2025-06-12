@@ -1,6 +1,7 @@
-# 
-
-
+# 字体识别系统
+# 2025/6/12
+# 项目已发布于 https://github.com/kjx52/PFRS
+# 项目循序 GNU_GPL_v3 许可
 
 import tkinter as tk
 from ui import OCRSystemUI
