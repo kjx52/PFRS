@@ -22,7 +22,8 @@ train = datasets.EMNIST(root='data', split='letters', train=True, download=True)
 2. 将数据集放到本仓库目录下改为`EnglishFnt.tgz`。
 3. 运行
 ```bash
-python main.py
+pip install -r requirements.txt   # 下载软件包
+python main.py                    # 执行
 ```
 
 ## 后记
